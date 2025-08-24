@@ -1,0 +1,612 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --primary-color: #1d2022;
+    --secondary-color: #ee8414;
+    --text-color: #7cc7f9;
+    --background-color: #100f0f;
+}
+
+.nav-bar{
+    display: flex;
+    background:var(--background-color);
+    justify-content: space-around;
+    ;
+    padding-top: 10px;
+    box-shadow: 0px 4px 10px rgba(245, 164, 15, 0.5);
+    position: sticky;
+}
+h1{
+    color: var(--secondary-color);
+    /* padding-top: 10px; */
+}
+.nav-bar ul {
+    display: flex;
+    list-style: none;
+    /* background-color: var(--primary-color); */
+    gap: 20px;
+    /* justify-content: space-around; */
+    ;
+    height: 50px;
+    
+
+    
+}
+
+li{
+    padding: 10px;
+    color: var(--background-color);
+    font-size: 18px;
+    
+    
+    
+}
+a{
+    text-decoration: none;
+    color: var(--secondary-color);
+    justify-content: space-around;
+    
+    }
+
+    .one:hover{
+        /* background-color: var(--secondary-color); */
+        /* color: var(--background-color); */
+        /* border-radius: 4px; */
+        color: var(--text-color);
+        
+    }
+    a:hover{
+        color: var(--text-color);
+        /* background: var(--secondary-color); */
+        /* border-radius: 4px; */
+        /* padding: 5px; */
+    }
+    .content{
+        /* background-color: var(--background-color); */
+        max-width: 400px;
+        max-height:400px;
+        position: relative;
+    
+        
+        
+    }
+    .main-content{
+         position: relative;
+        top: 300px;
+         left: 460px;
+         
+         
+    }
+    .name{
+        text-wrap-mode: nowrap;
+        font-size: 53px;
+        font-weight: bold;
+        
+        /* font-style:    italic; */
+    }
+    .c-name{
+        color: var(--text-color);
+        text-wrap-mode: nowrap;
+        font-size: 30px;
+        font-weight: bold;
+        /* font-style: italic      ; */
+        
+        
+    }
+    body{
+        background-color: var(--primary-color);
+    }
+    
+    .btn{
+        background-color: var(--secondary-color);
+        color: var(--background-color);
+        padding: 10px;
+        border-radius: 4px;
+        font-size: 18px;
+        font-weight: bold;
+        border: none;
+        cursor: pointer;
+        margin-top: 20px;
+        box-shadow: 0px 4px 10px rgba(247, 162, 5, 0.5);
+        position: relative;
+        left: 190px;
+        /* font-style: italic; */
+    }
+    .btn:hover{
+        transition: all 0.3s ease;
+        transform: scale(1.1);
+        background-color: var(--text-color);
+        color: var(--primary-color);
+        box-shadow: 0px 4px 10px rgba(124, 199, 249, 0.5);
+    }
+
+
+    /* about */
+
+    img{
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 50px;
+    box-shadow: 0px 4px 10px rgba(72, 173, 250, 0.5);
+    position: relative;
+    ;
+    top: 10px;
+    left: 10px;
+
+
+    }
+    img:hover{
+        /* transform: scale(1.1); */
+    box-shadow: 0px 4px 10px rgba(247, 190, 69, 0.5);
+    }
+     .about {
+    padding: 50px 20px;
+    text-align: center;
+    color: white;
+    position: relative;  
+    top: 30px;
+    left: 350px;
+    width: 900px;
+    height: 600px;
+
+    /* display: flex;    */
+} 
+.about1{
+    max-width: 800px;
+    max-height: 600px;
+    box-shadow: 0px 4px 10px rgba(245, 164, 15, 0.5);
+    border-radius: 30px;
+    
+}
+.about1:hover{
+    box-shadow: 0px 4px 10px rgba(124, 199, 249, 0.5);
+}
+
+ .about-me {
+    color: var(--secondary-color);
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+    position: relative
+    ;
+    right: 50px;
+    bottom: 25px;
+}
+
+.about-me:hover{
+    color: var(--text-color);
+    }
+
+
+.about-para {
+    line-height: 1.6;
+    font-size: 20px;
+    margin-top: 20px;
+    /* text-align: justify; */
+    padding: 0 100px;
+    color: var(--secondary-color    );
+    position: relative;
+    
+ } 
+ .about-para:hover{
+    color: var(--text-color);
+    } 
+
+    /* skills/projects */
+    .sp{
+        position: relative;
+        top: 50px;
+        left: 700px;
+        font-size: 30px;
+        font-weight: bold;
+        /* width: 900px; */
+        /* height: 600px; */
+        color: var(--secondary-color)
+    }
+    .sp:hover{
+        color: var(--text-color);
+    }
+
+    .html{
+        position: relative
+        ;
+        top: 100px;
+        left: 250px;
+        width: 110px;
+        height: 50px;
+        border-radius: 7px;
+        background: var(--secondary-color);
+        color: var(--background-color);
+        font-size: 13px;
+        box-shadow: 0px 4px 10px rgba(245, 164, 15, 0.5);
+    }
+    .html:hover{
+        transition: all 0.3s ease;
+        transform: scale(1.1);
+        /* color: var(--secondary-color); */
+        background: var(--text-color);
+        box-shadow: 0px 4px 10px rgba(124, 199, 249, 0.5);
+        cursor: pointer;
+      
+    }
+    .html1{
+        position: absolute;
+        top: 15px;
+        left: 32px;
+        /* color: var(--background-color); */
+    }
+    .html1:hover{
+        /* color: var(--background-color); */
+        cursor: pointer;
+    }
+
+    .css{
+        position: relative
+        ;
+        top: 50px;
+        left: 400px;
+        width: 110px;
+        height: 50px;
+        border-radius: 7px;
+        background-color: #ee8414 ;
+        font-size: 15px;
+        
+        box-shadow: 0px 4px 10px rgba(245, 164, 15, 0.5);
+    }
+    .css1{
+        position: absolute;
+         top: 14px;
+        left: 35px;
+         color: var(--background-color);  
+        
+    }
+    .css:hover{
+        transition: all 0.3s ease;
+        transform: scale(1.1);
+        background: var(--text-color);
+        box-shadow: 0px 4px 10px rgba(124, 199, 249, 0.5);
+      
+    }
+    .css1:hover{
+        color: var(--background-color);
+        cursor: pointer;
+    }
+
+    .spring{
+        position: relative
+        ;
+        top: 0px;
+        left: 550px;
+        width: 110px;
+        height: 50px;
+        border-radius: 7px;
+        background-color: #ee8414 ;
+        font-size: 13px;
+        
+        box-shadow: 0px 4px 10px rgba(245, 164, 15, 0.5);
+    }
+    .spring1 {
+        position: absolute;
+        top: 14px;
+        left: 3px;
+        
+        color: var(--background-color);
+    }
+    /* .spring2{
+        position: absolute;
+        top: 28px;
+        left: 29px;
+        color: var(--background-color);
+    } */
+    .spring:hover{
+        transition: all 0.3s ease;
+        transform: scale(1.1);
+        background: var(--text-color);
+        box-shadow: 0px 4px 10px rgba(124, 199, 249, 0.5);
+        cursor: pointer;
+      
+    }
+    .javascript{
+        position: relative
+        ;
+        top: -50px;
+        left: 700px;
+        width: 110px;
+        height: 50px;
+        border-radius: 7px;
+        background-color: #ee8414 ;
+        font-size: 13px;
+        
+        box-shadow: 0px 4px 10px rgba(245, 164, 15, 0.5);
+    }
+    .javascript1{
+        position: absolute;
+        top: 14px;
+        left: 11px;
+        color: var(--background-color);
+    }
+    .javascript:hover{
+        transition: all 0.3s ease;
+        transform: scale(1.1);
+        background: var(--text-color);
+        box-shadow: 0px 4px 10px rgba(124, 199, 249, 0.5);
+        cursor: pointer;
+      
+    }
+    .java{
+        position: relative
+        ;
+        top: -100px;
+        left: 850px;
+        width: 110px;
+        height: 50px;
+        border-radius: 7px;
+        background-color: #ee8414 ;
+        font-size: 14px;
+        
+        box-shadow: 0px 4px 10px rgba(245, 164, 15, 0.5);
+    }
+    .java1{
+        position: absolute;
+        top: 14px;
+        left: 30px;
+        color: var(--background-color);
+    }
+    .java:hover{
+        transition: all 0.3s ease;
+        transform: scale(1.1);
+        background: var(--text-color);
+        box-shadow: 0px 4px 10px rgba(124, 199, 249, 0.5);
+        cursor: pointer;
+    }
+    .mysql{
+        position: relative
+        ;
+        top: -150px;
+        left: 1000px;
+        width: 110px;
+        height: 50px;
+        border-radius: 7px;
+        background-color: #ee8414 ;
+        font-size: 14px;
+        
+        box-shadow: 0px 4px 10px rgba(245, 164, 15, 0.5);
+    }
+    .mysql1{
+        position: absolute;
+        top: 14px;
+        left: 21px;
+        color: var(--background-color);
+    }
+    .mysql:hover{
+        transition: all 0.3s ease;
+        transform: scale(1.1);
+        background: var(--text-color);
+        box-shadow: 0px 4px 10px rgba(124, 199, 249, 0.5);
+        cursor: pointer;
+    }  
+    .github{
+        position: relative
+        ;
+        top: -200px;
+        left: 1150px;
+        width: 110px;
+        height: 50px;
+        border-radius: 7px;
+        background-color: #ee8414 ;
+        font-size: 14px;
+        
+        box-shadow: 0px 4px 10px rgba(245, 164, 15, 0.5);
+    } 
+    .github1{
+        position: absolute;
+        top: 14px;
+        left: 20px;
+        color: var(--background-color);
+    }
+    .github:hover{
+        transition: all 0.3s ease;
+        transform: scale(1.1);
+        background: var(--text-color);
+        box-shadow: 0px 4px 10px rgba(124, 199, 249, 0.5);
+        cursor: pointer;
+    }
+.project{
+    height: 400px;
+    width: 900px;
+    position: relative;
+    top: -150px;
+    left: 310px;
+    box-shadow: 0px 4px 10px rgba(245, 164, 15, 0.5);
+    border-radius: 20px;
+}
+.project1{
+    position: absolute;
+    top: 30px;
+    left: 380px;
+}
+.project1:hover{
+     color: var(--text-color); 
+    cursor: pointer;
+}
+.project:hover{
+    /* color: var(--text-color); */
+    box-shadow: 0px 4px 10px rgba(124, 199, 249, 0.5);
+}
+/* .project2{
+    position:relative;
+    top: 80px;
+    left: 280px;
+    height: 50px;
+    width: 300px;
+    color: var(--secondary-color);
+    box-shadow: 0px 4px 10px rgba(245, 164, 15, 0.5);
+    border-radius: 20px;
+} */
+
+
+.project3{
+    position: relative;
+    top: 150px;
+    left: 30px;
+    height: 80px;
+    width: 840px;
+    color: var(--background-color);
+    box-shadow: 0px 4px 10px rgba(245, 164, 15, 0.5);
+    border-radius: 20px;
+    background-color: #ee8414;
+}
+.project3{
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 30px;
+}
+.project3:hover{
+    transition: all 0.3s ease;
+    transform: scale(1.02);
+    box-shadow: 0px 4px 10px rgba(124, 199, 249, 0.5);
+    background-color: var(--text-color);
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+/* contact */
+
+.contact{
+    color: var(--secondary-color);
+    padding-top: 30px;
+    font-size: xx-large;
+    font-weight: bold
+}
+.contact:hover{
+    color: var(--text-color);
+}
+table{
+    color: var(--secondary-color);
+}
+
+   .contact-c{
+    position: relative;
+    top: 60px;
+    left: 150px;
+    box-shadow: 0px 4px 10px rgba(245, 164, 15, 0.5);
+    border-radius: 20px;
+    padding: 60px;
+    width: 400px;
+    height: 150px;
+   }
+   .contact-c:hover{
+    transition: all 0.3s ease;
+    transform: scale3d(1.05, 1.05, 1);
+    box-shadow: 0px 4px 10px rgba(124, 199, 249, 0.5);
+   }
+   .full{
+    
+    position: relative;
+    top: -211px;
+    left: 850px;
+
+    box-shadow: 0px 4px 10px rgba(245, 164, 15, 0.5);
+    border-radius: 20px;
+    padding: 60px;
+    width: 400px;
+    height: 150px;
+    /* display: flex; */
+   }
+    .full:hover{
+     transition: all 0.3s ease;
+     transform: scale3d(1.05, 1.05, 1);
+     box-shadow: 0px 4px 10px rgba(124, 199, 249, 0.5);
+    }
+   .follow{
+    position: absolute;
+    top: 20px;
+    left: 190px;
+    color: var(--secondary-color);
+   }
+   .Email{
+    
+    padding: 40px;
+   }
+   .phone{
+    padding: 40px;
+    position: relative;
+    top: 40px;
+   }
+   .Location{
+    position: relative;
+    top: 80px;
+    padding: 40px;
+   }
+   #git{
+    position: relative;
+    left: 150px;
+    top: -30px;
+   }
+
+   #one{
+    position: relative;
+    left: 150px;
+    top: -28px;
+   }
+   #two{
+    position: relative;
+    left: 150px;
+    top: -15px;
+   }
+   #three{
+    position: relative;
+    left: 150px;
+    top: 3px;
+   }
+   #four{
+    position: relative;
+    left: 150px;
+    top: 20px;
+   }
+   footer{
+    background-color: var(--background-color);
+    color: var(--secondary-color);
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    top: 50px;
+    box-shadow: 0px 4px 10px rgba(245, 164, 15, 0.5);
+   }
+@media screen and (max-width:325px) {
+    body{
+        background-color: black;
+        color: rgb(100, 215, 250);
+        font-size: 12px;
+    }
+}
+
+/* for Tablet */
+@media screen and (min-width:325px) and (max-width:768px) {
+    body{
+        background-color: blue;
+
+    }    
+}
+
+/* for small Computers */
+@media screen and (min-width:768px) and (max-width:1200px) {
+    body{
+        background-color: brown;
+    }
+}
+/* @media screen and (min-width:1200px) {
+    body{
+        background-color: crimson;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: wheat;
+    }
+} */
+ body{
+    /* overflow: hidden; */
+    overflow: scroll;
+ }
